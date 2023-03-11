@@ -1,7 +1,7 @@
 use crate::service::perview::Preview;
 use crate::{
     error::provider_error::ProviderError,
-    model::{file::File, response::ProviderResponse},
+    model::{file::File, provider_response::ProviderResponse},
 };
 use actix_web::{get, web::Data, web::Json, web::Path};
 
